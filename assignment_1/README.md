@@ -1,4 +1,4 @@
-Assignment 1 - Image search
+## Assignment 1 - Image search
 
 This repository contains the answers to the following tasks:
 
@@ -12,4 +12,14 @@ Save an image which shows the target image, the three most similar, and the calc
 
 Save a CSV which has one column for the filename and three columns showing the filenames of the closest images in descending order
 
-The code is both in a python and html file
+
+## Structure
+
+This repository has the following directory structure:
+
+| Column | Description|
+|--------|:-----------|
+```data```| a folder to be used for inputting the data you wish to run
+```notebooks``` | Jupyter notebooks in both .ipynb and .html format
+```src``` | the .py script version of the assignment
+```output``` | the results of inputting the dataset 
