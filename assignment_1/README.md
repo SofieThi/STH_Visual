@@ -23,3 +23,21 @@ This repository has the following directory structure:
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
 ```output``` | the results of inputting the flowers dataset 
+
+## Contribution
+
+Sofie Thinggaard au613703
+
+201909063@post.au.dk
+
+## Methods
+
+This problem relates to finding how similar a given image is to others. In order to address this problem, we calculate the "distance" between the colour histogram of a chosen image and all of the other images in the flower folder. Firstly, we define an image from the folder and then find all filenames of the flower images in the folder (defined as filepath). Next, we do image normalization of our target image. Then, in a for loop, we ignore non jpgs in the folder, get the color histogram for one of the image in the folder to compare with the target image, normalize the other image, compare target image and one of the images in the folder and save distance scores to an empty list. Next, we combine distance scores to the file names of the pictures and convert it into a dataframe. We sort it to find the 3 most similar images. Then, we find the file name of the 3 images that are most similar to the target picture. Then we get the filenames of the closest images in descending order into a csv in an output folder.
+
+## Usage (reproducing results)
+
+To replicate the results chose the folder: flowers, and chose the target image "image_0004.jpg"
+
+## Discussion of results
+
+Results: getting a .csv file with a column for the filename and three columns showing the filenames of the closest images in descending order
