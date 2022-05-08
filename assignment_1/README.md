@@ -40,4 +40,4 @@ To replicate the results chose the folder: flowers, and chose the target image "
 
 ## Discussion of results
 
-Results: getting a .csv file with a column for the filename and three columns showing the filenames of the closest images in descending order
+Results: getting a .csv file with a column for the filename and three columns showing the filenames of the three closest images in descending order. The first image () is the traget image itself, therefore it makes sense its score is 0,0. The second closets image to the target image is...
