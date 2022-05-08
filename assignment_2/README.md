@@ -48,7 +48,9 @@ In the nn_classifier.py script we need to do the same: load the data and then sp
 
 ## Usage (reproducing results)
 
-To replicate the results load the dataset: cifar10. From tensorflow.keras.datasets import cifar10
+To replicate the results load the dataset: cifar10. From tensorflow.keras.datasets import cifar10.
+
+Also, import the premade module in the utils folder. From utils.neuralnetwork import NeuralNetwork
 
 ## Discussion of results
 
