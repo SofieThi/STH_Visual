@@ -36,7 +36,7 @@ This problem relates to finding how similar a given image is to others. In order
 
 ## Usage (reproducing results)
 
-To replicate the results choose the folder: flowers, and chose the target image "image_0004.jpg"
+To replicate the results choose the flowers dataset from https://www.robots.ox.ac.uk/~vgg/data/flowers/102/, and choose the target image "image_0004.jpg"
 
 ## Discussion of results
 
