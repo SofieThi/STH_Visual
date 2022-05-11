@@ -1,1 +1,8 @@
-requirements
+os
+sys
+cv2
+numpy
+jimshow
+jimshow_channel
+matplotlib.pyplot
+pandas
