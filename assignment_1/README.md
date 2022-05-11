@@ -23,6 +23,7 @@ This repository has the following directory structure:
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
 ```output``` | the results of inputting the flowers dataset 
+```utils``` | premade script with premade functions for image manipulation
 
 ## Contribution
 
@@ -37,6 +38,8 @@ This problem relates to finding how similar a given image is to others. In order
 ## Usage (reproducing results)
 
 To replicate the results choose the flowers dataset from https://www.robots.ox.ac.uk/~vgg/data/flowers/102/, and choose the target image "image_0004.jpg"
+
+In order to run this code you need the packages in the requirements.txt document
 
 ## Discussion of results
 
