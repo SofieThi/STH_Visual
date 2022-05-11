@@ -43,6 +43,8 @@ Sofie Thinggaard au613703
 
 This problem relates to training a Logistic Regression model using scikit-learn and a Neural Network model using the premade module in neuralnetwork.py. 
 
+Logistic regression models models relationships between an independent variable and dependent variable. It is good for modelling continous variables. The logistic regression classifier takes input features from the training data, estimates parameters to best fit the model, then, uses these found parameters to predict class membership. The classifier learns 
+
 In the logistic_regression.py script we need to load the data and then split it into training and testing. Then, convert all the data to greyscale, normalize the values with min/max normalization, reshape the data. Now, we train a Logistic Regression model using scikit-learn, which will enable us to get predictions and make a classification report.
 
 In the nn_classifier.py script we need to do the same: load the data and then split it into training and testing, convert all the data to greyscale, normalize the values with min/max normalization and finally reshape the data. Now, instead, we use a Neural network classifier. We binarize the labels (0 and 1s) and fit the data to dimensions of the labels. We do this both with the test and train data. Now, we can train the network over 10 epochs. Like with the lr script, this will enable us to get predictions and make a classification report.
