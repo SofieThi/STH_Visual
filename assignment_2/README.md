@@ -31,7 +31,7 @@ This repository has the following directory structure:
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignments: nn_classifier.py and logistic_regression.py
 ```output``` | the results of inputting the CIFAR_10 dataset: nn_report.txt for the nn_classifier.py script and lr_report.txt for the logistic_regression.py script
-```utils``` | premade script with premade functions for the neural network model
+```utils``` | premade script with premade functions for the neural network model and classifier
 
 ## Contribution
 
