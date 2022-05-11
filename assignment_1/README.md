@@ -37,9 +37,10 @@ This problem relates to finding how similar a given image is to others. In order
 
 ## Usage (reproducing results)
 
+In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document and the premade functions in the utils folder.
+
 To replicate the results choose the flowers dataset from https://www.robots.ox.ac.uk/~vgg/data/flowers/102/ and choose the target image "image_0004.jpg"
 
-In order to run this code you need the packages in the requirements.txt document
 
 ## Discussion of results
 
