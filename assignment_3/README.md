@@ -32,7 +32,7 @@ Sofie Thinggaard au613703
 
 ## Methods
 
-This problem relates to transfer learning and CNN classification. In order to address this problem, load the cifar10 data, normalize, binarize the labels, load and initilize the VGG16 model, disable training of convolutional layers (if it updates it defeats the purpose, meaning no transfer learning), add new classification layers, and add everything together. Now, we train the model over 10 epochs. This also gives us knowledge of loss and accuracy. To make our plot of the loss and accuracy we use the premade function: plot_history, and save to output folder. Finally, we generate a classification report and save to output folder.
+This problem relates to transfer learning and CNN classification. In order to address this problem, load the cifar10 data, normalize, binarize the labels, load and initilize the VGG16 model (pretrained on large amounts of data), disable training of convolutional layers (if it updates it defeats the purpose, meaning no transfer learning), add new classification layers (which correspond to our dataset: label_names), and add everything together. Now, we train the model over 10 epochs. This also gives us knowledge of loss and accuracy. To make our plot of the loss and accuracy we use the premade function: plot_history, and save to output folder. Finally, we generate a classification report and save to output folder.
 
 
 ## Usage (reproducing results)
