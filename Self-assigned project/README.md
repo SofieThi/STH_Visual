@@ -38,7 +38,7 @@ This problem relates to finding how how well a sequential model can predict whic
 
 In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
 
-To replicate the results choose the flowers dataset from https://www.kaggle.com/code/victorxiao4/sports-tf/data and remove all but the 20 first folders in alphabethical order (keeping the classes: air hockey to cheerleading). The code can run with the whole dataset with 100 classes, but it will take a long time.
+To replicate the results choose the flowers dataset from https://www.kaggle.com/code/victorxiao4/sports-tf/data and remove all but the 20 first folders in alphabethical order (keeping the classes: air hockey to cheerleading). This is also in the data folder as a zip file. The code can run with the whole dataset with 100 classes, but it will take a long time.
 
 ## Discussion of results
 
