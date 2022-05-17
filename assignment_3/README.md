@@ -46,3 +46,5 @@ To replicate the results chose the cifar10 dataset. from tensorflow.keras.datase
 Results: getting a plot of the accuracy and loss of the model (plots_assign_3.png) and a classification report (classification_assign_3.txt). Our model has an accuracy of 51% but the training curves show that training and test loss could potentially continue to decrease, hence learn more, with more epochs, meaning getting a higher accuracy. 
 
 ## Link to assignment 3 on Github
+
+https://github.com/SofieThi/STH_Visual/tree/main/assignment_3
