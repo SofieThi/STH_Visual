@@ -1,0 +1,11 @@
+numpy
+os
+pathlib
+tensorflow
+keras
+layers
+Sequential
+tensorflow_hub
+warnings
+matplotlib.pyplot
+classification_report
