@@ -48,3 +48,4 @@ Results: getting a classification report and two plot models to see how well the
 
 ## Link to self-assigned assignment on Github
 
+https://github.com/SofieThi/STH_Visual/tree/main/Self-assigned%20project
