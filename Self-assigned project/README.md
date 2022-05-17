@@ -1,4 +1,4 @@
-## Self-assigned project
+## Self-assigned project: How well can a model predict which sport is happening in the images?
 
 This repository contains the answers to the following tasks:
 
