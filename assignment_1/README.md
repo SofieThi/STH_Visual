@@ -47,3 +47,7 @@ To replicate the results choose the flowers dataset from https://www.robots.ox.a
 ## Discussion of results
 
 Results: getting a .csv file with a column for the filename and three columns showing the filenames of the three closest images in descending order. The first image (image_0004.jpg) is the target image itself, therefore it makes sense its score is 0,0. I kept the score just to make sure the code is working (if it is working the first filename should be the same as the target image and the score 0,0). The most similar image to the target image is image_0591.jpg, the second most similar image is image_0591.jpg and the next image that looks most like the target image is image_0566.jpg
+
+## Link to assignment 1 on Github
+
+https://github.com/SofieThi/STH_Visual/tree/main/assignment_1
