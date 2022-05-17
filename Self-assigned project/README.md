@@ -44,4 +44,4 @@ In order to run this code, clone the repository and unzip the data in the data f
 
 ## Discussion of results
 
-Results: getting a classification report and two plot models to see how well the model is performing on the dataset. 
+Results: getting a classification report and two plot models to see how well the model is performing on the dataset. The model's accuracy is 23% and seems best at predicting images with people playing billiards. 
