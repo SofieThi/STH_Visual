@@ -61,4 +61,6 @@ To replicate the results load the dataset: cifar10. From tensorflow.keras.datase
 
 Results: getting two classification reports, one for each model. The resulting classification report shows that the Logistic Regression model has an accuracy of 32%. By comparison, the Neural Network model resulted in a score of 38% on accuracy. However, the loss information the epochs shows reveals that the loss function gets lower and lower, which means the model is learning every full pass over the dataset. It should be rapid fall then slower and slower. Adding more epochs could show whether the loss continues to decrease (more learning = higher accuracy).
 
-## Link to assignment 1 on Github
+## Link to assignment 2 on Github
+
+https://github.com/SofieThi/STH_Visual/tree/main/assignment_2
