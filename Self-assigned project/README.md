@@ -1,7 +1,5 @@
 ## Self-assigned project
 
-## Assignment 1 - Image search
-
 This repository contains the answers to the following tasks:
 
 -Make the https://www.kaggle.com/code/victorxiao4/sports-tf/data smaller (20 classes instead of 100) by only including the first 20 folders (alphabethical order) in the train, test and valid folders
