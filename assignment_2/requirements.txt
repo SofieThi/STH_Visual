@@ -5,8 +5,8 @@ utils.classifier_utils
 metrics
 fetch_openml
 train_test_split
-LogisticRegression #classifier
-accuracy_score #calculating accuracy
+LogisticRegression
+accuracy_score
 classification_report
 cv2
 cifar10
