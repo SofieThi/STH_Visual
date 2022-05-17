@@ -2,13 +2,15 @@
 
 This repository contains the answers to the following tasks:
 
--Make the https://www.kaggle.com/code/victorxiao4/sports-tf/data smaller (20 classes instead of 100) by only including the first 20 folders (alphabethical order) in the train, test and valid folders
+-Change the dataset: compile the split dataset from https://www.kaggle.com/code/victorxiao4/sports-tf/data into one big dataset with 5 categories: arm wrestling, barell racing, billiards, bmx and boxing: these are the classes the model has previosuly been best at predicting (with val, test, train split and 20 classes)
 
--Train a sequential model from TensorFlow to predict which of the 20 classes the image belongs to
+-Train a sequential model from TensorFlow to predict which of the 5 classes the images belongs to
 
 -Find out how well the model performs
 
 -Generate plot history and save it to output folder
+
+-Generate classification report and save it to output folder
 
 
 ## Structure
@@ -17,7 +19,7 @@ This repository has the following directory structure:
 
 | Column | Description|
 |--------|:-----------|
-```data```| a folder to be used for inputting the data you wish to run
+```data```| a folder to be used for inputting the data you wish to run: the small dataset used for this assignment is added as a .zip file
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
 ```output``` | the results of inputting the kaggle Sport tf dataset
@@ -32,14 +34,14 @@ Code from VICTOR XIAO https://www.kaggle.com/code/victorxiao4/sports-tf
 
 ## Methods
 
-This problem relates to finding how how well a sequential model can predict which sport is happening in sports images. In order to address this problem, I set parameters to be used by the model including normalizing the image sizes and setting the number of classes. Then, load the data with Keras path finder and define training, validation and test set. In the training folder there should be 2634 files, the validation 105 files and test with 101 files - all with 20 classes. Them create the model with hidden layers, maxpooling layers, relu activation layers etc. Now, compile and train the model with 10 epochs. Now, plot history for the model's loss and accucy. Make a function to be able to plot the Training and Validation Accuracy and Training and Validation Loss. Save it to output folder.
+This problem relates to finding how how well a sequential model can predict which sport is happening in sports images. In order to address this problem, I set parameters to be used by the model including normalizing the image sizes and setting the number of classes. Then, load the data with Keras path finder and define training and validation subsets using additional parameters like validation_split and seed from https://errorsfixing.com/is-it-possible-to-split-a-tensorflow-dataset-into-train-validation-and-test-datasets-when-using-image_dataset_from_directory/. Then, create the model with hidden layers, maxpooling layers, relu activation layers etc. Now, compile and train the model with 10 epochs, then plot history for the model's loss and accuracy using a function to plot the Training and Validation Accuracy and Training and Validation Loss. Save it to output folder. Lastly, generate the classification report and save it to an output folder.
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
+The data used is a small subsample of Sports tf from https://www.kaggle.com/code/victorxiao4/sports-tf/data
 
-To replicate the results choose the flowers dataset from https://www.kaggle.com/code/victorxiao4/sports-tf/data and remove all but the 20 first folders in alphabethical order (keeping the classes: air hockey to cheerleading). This is also in the data folder as a zip file. The code can run with the whole dataset with 100 classes, but it will take a long time.
+In order to run this code, clone the repository and unzip the data in the data folder. You will need the packages in the requirements.txt document.
 
 ## Discussion of results
 
-Results: 
+Results: getting a classification report and two plot models to see how well the model is performing on the dataset. 
