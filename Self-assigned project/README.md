@@ -32,7 +32,7 @@ Code from https://www.kaggle.com/code/victorxiao4/sports-tf
 
 ## Methods
 
-This problem relates to finding how . In order to address this problem, 
+This problem relates to finding how how well a sequential model can predict which sport is happening in sports images. In order to address this problem, I set parameters to be used by the model including normalizing the image sizes and setting the number of classes. Then, load the data with Keras path finder and define training, validation and test set. In the training folder there should be 2634 files, the validation 105 files and test with 101 files - all with 20 classes. Them create the model with hidden layers, maxpooling layers, relu activation layers etc. Now, compile and train the model with 10 epochs. Now, plot history for the model's loss and accucy. Make a function to be able to plot the Training and Validation Accuracy and Training and Validation Loss. Save it to output folder.
 
 ## Usage (reproducing results)
 
@@ -42,4 +42,4 @@ To replicate the results choose the flowers dataset from https://www.kaggle.com/
 
 ## Discussion of results
 
-Results:
+Results: 
