@@ -22,7 +22,7 @@ This repository has the following directory structure:
 ```data```| a folder to be used for inputting the data you wish to run: the small dataset used for this assignment is added as a .zip file
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
-```output``` | the results of inputting the kaggle Sport tf dataset
+```output``` | the results of inputting the subset of the kaggle Sport tf dataset. The plots are called self_assigned_plots.png and the classification report is called self-assigned_cr.txt
 
 ## Contribution
 
