@@ -2,7 +2,7 @@
 
 This repository contains the answers to the following tasks:
 
--Change the dataset: compile the split dataset from https://www.kaggle.com/code/victorxiao4/sports-tf/data into one big dataset with 5 categories: arm wrestling, barell racing, billiards, bmx and boxing: these are the classes the model has previosuly been best at predicting (with val, test, train split and 20 classes)
+-Change the dataset: compile the split dataset from https://www.kaggle.com/code/victorxiao4/sports-tf/data into one big dataset with 5 categories: arm wrestling, barell racing, billiards, bmx and boxing: these are the classes the model has previously been best at predicting (with validation, test, train split and 20 classes)
 
 -Train a sequential model from TensorFlow to predict which of the 5 classes the images belongs to
 
@@ -44,7 +44,7 @@ In order to run this code, clone the repository and unzip the data in the data f
 
 ## Discussion of results
 
-Results: getting a classification report and two plot models to see how well the model is performing on the dataset. The model's accuracy is 23% and seems best at predicting images with people playing billiards. Seen with the plots, the model does well on the training data, but is likely overfitting on the training data, seen with the poor scores on the test data in the classification report. The model cannot generalize that well. A possible solution will be Transfer learning from a pre-trained model.
+Results: getting a classification report and two plot models to see how well the model is performing on the dataset. The model's accuracy is 23% and seems best at predicting images with people playing billiards. Seen with the plots, the model does well on the training data, but is likely overfitting on the training data, seen with the poor scores on the test data in the classification report. The model cannot generalize that well. A possible solution with better results will be Transfer learning from a pre-trained model.
 
 ## Link to self-assigned assignment on Github
 
