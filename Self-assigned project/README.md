@@ -38,7 +38,7 @@ This problem relates to finding how how well a sequential model can predict whic
 
 ## Usage (reproducing results)
 
-The data used is a small subsample of Sports tf from https://www.kaggle.com/code/victorxiao4/sports-tf/data
+The data used is a small subsample of Sports tf from https://www.kaggle.com/code/victorxiao4/sports-tf/data. It is in the data folder as a .zip file
 
 In order to run this code, clone the repository and unzip the data in the data folder. You will need the packages in the requirements.txt document.
 
