@@ -53,9 +53,7 @@ In the nn_classifier.py script we need to do the same: load the data and then sp
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document and the premade functions in the utils folder.
-
-To replicate the results load the dataset: cifar10. From tensorflow.keras.datasets import cifar10.
+In order to run this code, clone the repository and load the dataset: cifar10 (From tensorflow.keras.datasets import cifar10). You will need the packages in the requirements.txt document and the premade functions in the utils folder.
 
 ## Discussion of results
 
