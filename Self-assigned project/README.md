@@ -44,7 +44,7 @@ In order to run this code, clone the repository and unzip the data in the data f
 
 ## Discussion of results
 
-Results: getting a classification report and two plot models to see how well the model is performing on the dataset. The model's accuracy is 23% and seems best at predicting images with people playing billiards. Seen with the plots, the model does well on the training data, but is likely overfitting on the training data, seen with the poor scores on the test data in the classification report. The model cannot generalize that well. A possible solution with better results will be Transfer learning from a pre-trained model.
+Results: getting a classification report and two plot models to see how well the model is performing on the dataset. The model's accuracy is 23% and seems best at predicting images with people playing billiards or arm wrestling. Seen with the plots, the model does well on the training data, but is likely overfitting on the training data, seen with the poor scores on the test data in the classification report. The model cannot generalize that well. A possible solution with better results will be Transfer learning from a pre-trained model.
 
 ## Link to self-assigned assignment on Github
 
