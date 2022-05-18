@@ -1,0 +1,12 @@
+               precision    recall  f1-score   support
+
+arm wrestling       0.35      0.35      0.35        31
+barell racing       0.17      0.19      0.18        37
+    billiards       0.35      0.33      0.34        45
+          bmx       0.13      0.13      0.13        54
+       boxing       0.18      0.18      0.18        34
+
+     accuracy                           0.23       201
+    macro avg       0.24      0.24      0.24       201
+ weighted avg       0.23      0.23      0.23       201
+
