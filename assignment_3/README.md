@@ -41,7 +41,7 @@ In order to run this code, clone the repository and load the cifar10 dataset (fr
 
 ## Discussion of results
 
-Results: getting a plot of the accuracy and loss of the model (plots_assign_3.png) and a classification report (classification_assign_3.txt). Our model has an accuracy of 51% but the training curves show that training and test loss could potentially continue to decrease, hence learn more, with more epochs, meaning getting a higher accuracy. 
+Results: getting a plot of the accuracy and loss of the model (plots_assign_3.png) and a classification report (classification_assign_3.txt). Our model has an accuracy of 51%, which is higher than the logistic regression model and the Neural Network model from assignment_3 that also used the CIFAR_10 dataset. Furthermore, the training curves show that training and test loss could potentially continue to decrease with more epochs, hence learn more, meaning getting a higher accuracy. 
 
 ## Link to assignment 3 on Github
 
