@@ -37,9 +37,7 @@ This problem relates to transfer learning and CNN classification. In order to ad
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
-
-To replicate the results chose the cifar10 dataset. from tensorflow.keras.datasets import cifar10
+In order to run this code, clone the repository and load the cifar10 dataset (from tensorflow.keras.datasets import cifar10). You will need the packages in the requirements.txt document.
 
 ## Discussion of results
 
